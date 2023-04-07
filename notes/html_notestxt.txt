@@ -220,7 +220,7 @@ img.main{
 Ref: boeder reduis: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
 
 
-foemat cose in VS: Alt+Shift+F
+foemat code in VS: Alt+Shift+F
 
 
 
