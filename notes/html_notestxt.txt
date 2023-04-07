@@ -1,0 +1,228 @@
+html
+
+use ! to grt default html format
+
+to get some paragraph content
+<p>lorem50</p>
+
+CSS: use coloring.. look and feel better
+1. intternal css: inside header section
+Ex: 
+selectoe: whwre you want to applu css.. use that tag selector/element selector name 
+
+1. body bg color is corl
+2. all the h2 bg color of maroon
+3. forground color of white
+4. Padding:- space betwen the content and boundary 
+unit of measurmrnt in pixel(px)
+5. radius : some curve
+radius: 
+6. shadow: some blur effect 
+ex: buddha pic..
+  box-shadow:left side, from top,blur effect,blur color name;
+  
+
+
+1. font-family: Verdana, serif;
+serif: is the famili name
+Basically there are 4 types of font family
+1. Serif
+2. Sans-Serif
+3. Monospace
+4. Cursive
+5. Fantasy
+6. MS
+
+Un-ordered list is defined with ul in html
+NOTE: Padding left for the unordered or ordered list is 40px
+So, dont apply padding-left direclty, its recommended to use padding-top and padding-bottom 
+
+PROJECT 1:
+**********
+Projrct/Requirement analysis
+1. see/check how many page division is required based on requirement
+2. use same count of div tah in your sourec code(shortcut->  div*5
+3. 
+
+
+
+<br> - means next line
+
+ body{
+            text-align: center; // all text will come to center
+        }
+		
+Proper height and weidth of images:
+*************************************
+img{
+width: 280px;
+            height: 160px;
+            margin-right: 20px;// some gaps b/w images
+            border: 3px,solid,black;
+}
+		
+		
+
+
+iframe - VVI
+******
+inline frame 		
+
+when you  want to place another html page inside home page
+or pdf inside html page
+or, google maps inside html page
+or, 360 degree images
+or, keep  another site/ google site in html page
+or, video  or any kind/ type of doc/YT  video/external resources...
+or google maps
+
+Attributes:
+1. align=left | right | top| middle | bottom
+2. frameborder=1 | 0
+3. width =pixels
+4. height = pixels
+5. marginheight=
+6. marginwidth =
+7. name=
+8. scrolling= yes | no | auto
+9. arc
+10. allowfullscreen
+ etc
+ 
+ :: to integrate a YT video in web page 
+ > play a video in YT.come
+ 
+NOTE: By default iframes are inline
+
+
+Interate YT videos
+----------------
+steps
+go to YT video> select video-> share-> embed-> copy iframe code and paste as it is in code
+
+Integrate Google maps
+------------------------
+steps
+go to google maps-> serch for location that ypu want to ingegrate-> share-> Embed a map -> copy html-> paste as it is in code iframe
+
+
+
+
+To do 
+*****
+1. FB landing page
+2. insta landing page
+3. twitter landing page
+4. Goole LP
+5. YouTube
+6. Baidu	baidu.com
+7. Wikipedia	wikipedia.org
+8. Yandex	yandex.ru
+9. Yahoo	yahoo.com
+10. Amazon	amazon.com
+11. LinkedIn	linkedin.com
+12. Reddit	reddit.com
+13. Microsoft Office	office.com
+14. Netflix	netflix.com
+15. Pinterest	pinterest.com
+16. Zoom	zoom.us
+17. Microsoft	microsoft.com
+18. Quora	quora.com
+
+
+tags:
+----heading
+paragraph
+division
+span
+text  formating
+list 
+ordered list
+unordered list
+description list
+anchors
+iframe
+
+1. Internal/ Inline CSS
+
+2. External CSS
+use below syntax tu use external css in html code
+
+<link rel="stylesheet" href="css/styles.css">
+
+
+------------
+we create seprate css foler in project structure and keep all css code in that folder
+
+
+Rquuireement
+-----------
+What is the page to be developed 
+Yummy food project
+images- required
+resturent/hotel 
+burgers images
+
+Solutions steps:
+header division
+
+<div id=header">
+</div>
+<div id="main_content">
+</div>
+<div id="burgers"> 
+</div>
+<div id="fries">
+</div>
+<div id="noodles">
+</div> 
+<div id="greens">
+</div> 
+<div id="deserts">
+</div>
+<div id="footers">
+</div> 
+
+How to provide CSS??
+go to css folert-> create fileneme.css-> add css code and integrate it tpo html
+How to integrate css code to html??
+use link tag in html code as given below
+
+    <link rel="stylesheet" href="css/styles.css">    
+
+How to arrane images??
+using img tag in css
+Element selector
+img{
+    width: 270px;
+    height: 170px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+Class selector:
+---------------
+img.main{
+    width: 500px;
+    height: 270px;
+}
+
+
+
+
+class selector
+--------------
+anything starts with dot(.) is called class selector
+vlass="main" can be applied anly to img tag
+img.main{
+    
+}
+Ref: boeder reduis: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+
+
+foemat cose in VS: Alt+Shift+F
+
+
+
+ 
+ 
