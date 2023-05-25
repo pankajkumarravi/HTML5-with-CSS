@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms example..</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <textarea name="" id="" cols="30" rows="10">Tis is text area
+            </textarea>
+            <br>
+            <br>
+            <select>
+                <option> Select any tech langyage</option>
+                <option> Java</option>
+                <option> SQL</option>
+                <option> Php</option>
+                <option> java script</option>
+            </select>
+            <br>
+            <br>
+            <input type="radio" name="gender"/>Male
+            <input type="radio"name="gender"/>Female
+            <br>
+            <br>
+            <input type="checkbox" name="gen"onclick="valOne(this)"/>M
+            <input type="checkbox" name="gen"onclick="valOne(this)"/>F
+            <br>
+            <br>
+            <input type="text" placeholder="Email"/>
+            <br>
+            <br>
+            <input type="submit" value="Click here">
+        </form>
+
+        <p>&yen;&pound;</p>
+    </div>
+</body>
+<script>
+    function valOne(checkbox){
+        var checkboxs=document.getElementsByName("gen")
+        checkboxs.forEach((item)=>{
+            if(item!==checkbox)
+            item.checked=false
+        })
+    }
+    </script>
+</html>
